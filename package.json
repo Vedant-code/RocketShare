@@ -1,0 +1,35 @@
+{
+  "name": "lighting-share-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@heroicons/react": "^2.0.16",
+    "constate": "^3.3.2",
+    "filepond": "^4.30.4",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "firebase": "9.18.0",
+    "framer-motion": "^10.10.0",
+    "preact": "^10.13.2",
+    "react-filepond": "^7.1.2",
+    "react-helmet": "^6.1.0",
+    "react-use": "^17.4.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/react-helmet": "^6.1.6",
+    "prettier": "^2.8.7",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vite-plugin-pwa": "^0.14.7"
+  }
+}
